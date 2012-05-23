@@ -1,1 +1,12 @@
 Sputnik sparse repo
+
+WWW
+Who What Why?
+
+# created basebox
+bundle exec vagrant basebox define ubuntu-12.04-sputnik-amd64 ubuntu-12.04-server-amd64
+
+
+Editors:
+
+* sublime-text
