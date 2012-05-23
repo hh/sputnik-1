@@ -1,0 +1,5 @@
+deb http://ppa.launchpad.net/vanhoof/policykit-d-p-hibernate-enabled/ubuntu precise main
+deb-src http://ppa.launchpad.net/vanhoof/policykit-d-p-hibernate-enabled/ubuntu precise main
+
+deb http://ppa.launchpad.net/kamalmostafa/dellxps/ubuntu precise main
+deb-src http://ppa.launchpad.net/kamalmostafa/dellxps/ubuntu precise main

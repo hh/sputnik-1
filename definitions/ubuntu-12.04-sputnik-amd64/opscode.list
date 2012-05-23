@@ -1,0 +1,6 @@
+## See http://wiki.opscode.com/display/chef/Installing+Chef+Client+on+Ubuntu+or+Debian
+## ... for instructions on how to import the opscode signing key then uncomment the 
+## following two entries and run apt-get update
+##
+deb http://apt.opscode.com/ precise-0.10 main
+deb-src http://apt.opscode.com/ precise-0.10 main

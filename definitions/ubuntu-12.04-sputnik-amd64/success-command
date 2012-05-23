@@ -1,0 +1,10 @@
+#!/bin/sh
+
+OPSCODE_LIST=/cdrom/install/opscode.list
+DELLXPS_LIST=/cdrom/install/dellxps.list
+
+if [ -f "$OPSCODE_LIST" ] && [ -f "$DELLXPS_LIST" ]; then
+    mkdir -p /target/etc/apt/sources.list.d/
+    cp -v "$OPSCODE_LIST" /target/etc/apt/sources.list.d/
+    cp -v "$DELLXPS_LIST" /target/etc/apt/sources.list.d/
+fi
