@@ -1,7 +1,10 @@
+Feature: setting up on editor and rails
+
 As a Rails Developer
 I want spend less time setting up my laptop
 In order to spend more time writing cool software in rails
 
+Scenario: rails + sublime
 Given that I enable the rails profile
 And that I enable the sublime option
 # And that I enable the emacs option
